@@ -26,4 +26,4 @@ jobs:
 
     - name: Executar testes unitarios e de integracao
       run: |
-        pytest -v --cov=backend
+        python -m pytest -v --cov=backend
